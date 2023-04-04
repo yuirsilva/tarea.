@@ -1,0 +1,25 @@
+.btn {
+    padding: 0.8rem 1.6rem;
+    color: var(--gray50);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+}
+
+.submit {
+    background-color: var(--gray50);
+    box-shadow: var(--box-shadow);
+    color: var(--gray950);
+}
+
+.signOut {
+    border: var(--border);
+    padding: 0.6rem 1.2rem;
+    color: var(--gray50);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background-color 0.2s var(--smooth-bezier), border 0.2s var(--smooth-bezier);
+}
+.signOut:hover {
+    background-color: var(--gray800);
+    border: 1px solid var(--gray700);
+}

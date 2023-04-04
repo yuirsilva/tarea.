@@ -1,0 +1,53 @@
+.main {
+    padding: 3rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.listSection {
+    margin: 4rem auto 0 auto;
+    width: 100%;
+    max-width: 500px;
+}
+
+.list {
+    list-style: none;
+    list-style-type: none;
+    margin-top: 1rem;
+}
+.list li:not(:last-of-type) {
+    border-bottom: 1px solid var(--gray800);
+}
+
+.addTaskButton > button {
+    width: 100%;
+    padding: 1.2rem 0;
+    color: var(--gray300);
+    cursor: pointer;
+    text-align: left;
+    font-weight: 600;
+}
+.addTaskButton {
+    transition: background-color 0.2s var(--smooth-bezier);
+}
+.addTaskButton:hover {
+    background-color: var(--gray900);
+}
+
+.addTaskForm {
+    width: 100%;
+    padding: 1rem;
+    border: var(--border);
+    border-radius: var(--border-radius);
+    background-color: var(--gray950);
+}
+.addTaskForm input:first-of-type {
+    margin-bottom: 0.8rem;
+}
+.addTaskForm div {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}

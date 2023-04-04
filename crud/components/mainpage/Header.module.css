@@ -1,0 +1,23 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+}
+.header nav {
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+}
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 2.5rem 3rem;
+}
+
+.logo {
+    font-size: clamp(24px, 2vw, 64px);
+    font-weight: 700;
+}

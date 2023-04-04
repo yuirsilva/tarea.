@@ -1,0 +1,27 @@
+.editForm {
+    margin-bottom: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.editForm button {
+    padding: 0.6rem 1.2rem;
+    border-radius: var(--border-radius);
+    color: var(--gray50);
+    cursor: pointer;
+}
+/* cancel */
+.editForm button:first-of-type {
+    background-color: var(--red950);
+    margin-right: 0.6rem;
+}
+/* save */
+.editForm button:last-of-type:hover {
+    background-color: var(--gray800);
+}
+.taskInput {
+    color: var(--gray300);
+    border: 1px solid var(--gray300);
+    padding: 1rem;
+    border-radius: var(--border-radius);
+}

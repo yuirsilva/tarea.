@@ -1,0 +1,46 @@
+.task {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: background-color 0.2s var(--smooth-bezier);
+}
+.task:hover {
+    background-color: var(--gray900);
+}
+.task div {
+    display: flex;
+    width: 100%;
+}
+.task div:hover .deleteTask {
+    opacity: 1;
+    transition: opacity 0.2s var(--smooth-bezier);
+}
+.deleteTask {
+    color: var(--gray50);
+    opacity: 0;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 1px solid var(--gray300);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background-color 0.2s var(--smooth-bezier);
+}
+.checkbox:hover {
+    background-color: var(--gray300);
+}
+
+.taskName {
+    padding: 1.2rem 0;
+    background-color: transparent;
+    color: var(--gray50);
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+}
